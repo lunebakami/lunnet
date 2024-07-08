@@ -11,5 +11,10 @@ pub fn main_menu_component() -> Paragraph<'static> {
     ))
     .block(text_block);
 
+    // Lista dos 5 Wi-fis mais proximos
+    //    - Pode navegar entre eles
+    //    - Apertar Enter deve conectar com a rede
+    // Botão de ver todos
+
     text
 }
